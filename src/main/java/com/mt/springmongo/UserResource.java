@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Rest controller which is responsible for retrieving {@link User}s.
  *
  * @author Mithun
- */
+ *//**json*/
 @RestController
 @RequestMapping(value = "/api/users")
 public class UserResource {
